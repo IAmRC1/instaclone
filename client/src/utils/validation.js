@@ -45,7 +45,7 @@ export const validatePassword = (password) => {
 
 export const validateBio = (bio) => {
   if (bio.length > 130) {
-    return 'Your bio has to be 120 characters or less.';
+    return 'Your bio has to be 130 characters or less.';
   }
   return false;
 };
